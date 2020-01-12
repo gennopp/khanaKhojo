@@ -11,7 +11,7 @@ const Card = ({ img, name, href, color }) => {
         >
             <div>
                 <p style={{ margin: 0, textAlign: "left", padding: "5px 0px 5px 10px" }}>
-                    {NAME}
+                   
                 </p>
             </div>
             <div

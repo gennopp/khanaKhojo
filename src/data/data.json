@@ -1,0 +1,195 @@
+{
+    "Breakfast": [
+      {
+        "_id": 1035,
+        "_name": "Afghan"
+      },
+      {
+        "_id": 152,
+        "_name": "African"
+      },
+      {
+        "_id": 1,
+        "_name": "American"
+      },
+      {
+        "_id": 2,
+        "_name": "Andhra"
+      },
+      {
+        "_id": 4,
+        "_name": "Arabian"
+      },
+      {
+        "_id": 175,
+        "_name": "Armenian"
+      },
+      {
+        "_id": 3,
+        "_name": "Asian"
+      },
+      {
+        "_id": 165,
+        "_name": "Assamese"
+      },
+      {
+        "_id": 131,
+        "_name": "Australian"
+      },
+      {
+        "_id": 292,
+        "_name": "Awadhi"
+      }
+    ],
+    "Lunch": [
+      {
+        "_id": 193,
+        "_name": "BBQ"
+      },
+      {
+        "_id": 5,
+        "_name": "Bakery"
+      },
+      {
+        "_id": 227,
+        "_name": "Bar Food"
+      },
+      {
+        "_id": 132,
+        "_name": "Belgian"
+      },
+      {
+        "_id": 10,
+        "_name": "Bengali"
+      },
+      {
+        "_id": 270,
+        "_name": "Beverages"
+      },
+      {
+        "_id": 1013,
+        "_name": "Bihari"
+      },
+      {
+        "_id": 7,
+        "_name": "Biryani"
+      },
+      {
+        "_id": 1032,
+        "_name": "Bohri"
+      },
+      {
+        "_id": 159,
+        "_name": "Brazilian"
+      }
+    ],
+    "Dinner": [
+      {
+        "_id": 133,
+        "_name": "British"
+      },
+      {
+        "_id": 247,
+        "_name": "Bubble Tea"
+      },
+      {
+        "_id": 168,
+        "_name": "Burger"
+      },
+      {
+        "_id": 22,
+        "_name": "Burmese"
+      },
+      {
+        "_id": 30,
+        "_name": "Cafe"
+      },
+      {
+        "_id": 1039,
+        "_name": "Cafe Food"
+      },
+      {
+        "_id": 121,
+        "_name": "Cantonese"
+      },
+      {
+        "_id": 994,
+        "_name": "Charcoal Chicken"
+      },
+      {
+        "_id": 18,
+        "_name": "Chettinad"
+      },
+      {
+        "_id": 25,
+        "_name": "Chinese"
+      }
+    ],
+    "Snacks": [
+      {
+        "_id": 1040,
+        "_name": "Coffee"
+      },
+      {
+        "_id": 161,
+        "_name": "Coffee and Tea"
+      },
+      {
+        "_id": 35,
+        "_name": "Continental"
+      },
+      {
+        "_id": 1014,
+        "_name": " Varies"
+      },
+      {
+        "_id": 100,
+        "_name": "Desserts"
+      }
+    ],
+    "Drink": [
+      {
+        "_id": 146,
+        "_name": "Egyptian"
+      },
+      {
+        "_id": 149,
+        "_name": "Ethiopian"
+      },
+      {
+        "_id": 38,
+        "_name": "European"
+      },
+      {
+        "_id": 40,
+        "_name": "Fast Food"
+      },
+      {
+        "_id": 271,
+        "_name": "Finger Food"
+      }
+    ],
+    "Sweet": [
+      {
+        "_id": 45,
+        "_name": "French"
+      },
+      {
+        "_id": 501,
+        "_name": "Frozen Yogurt"
+      },
+      {
+        "_id": 274,
+        "_name": "Fusion"
+      },
+      {
+        "_id": 134,
+        "_name": "German"
+      },
+      {
+        "_id": 47,
+        "_name": "Goan"
+      }
+    ]
+  }
+  

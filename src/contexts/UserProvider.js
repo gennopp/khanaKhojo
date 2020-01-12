@@ -7,7 +7,10 @@ const UserProvider = ({ children }) => {
   useEffect(() => {
       fetch("/user")
           .then(res => res.json())
-          .then(res => setUser(res))
+          .then(res => {
+            console.log(res);  
+            setUser(res)
+          })
           .catch(err => {
               console.log(err);
           });

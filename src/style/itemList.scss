@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$body-background: rgba(18, 17, 17, 0.691);
+// body {
+//   background: linear-gradient(to bottom, #101011 0%,#3d3c3c 100%);
+//   color: white;
+//   font-family: 'Raleway', sans-serif;
+//   font-size: 5vw;
+// }
+
+body{
+    background-image: url("khanakhojo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+.title {
+  height: 50vh;
+  text-align: center;
+  overflow-x: hidden;
+	display: grid;
+	place-items: center;
+  .heading {
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1;
+    background-size: auto auto;
+		background-clip: border-box;
+    background-size: 200% auto;
+    display: inline-block;
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate;
+  }
+
+}
+
+/*-- Animation Keyframes --*/
+
+// animation
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgb(239, 229, 229),
+    0 0 12px rgba(14, 115, 222, 0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(10, 118, 233, 0.889),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgb(18, 116, 221),
+    0 0 60px rgba(30,132,242,1);
+  }
+}
+
+
+
+
+
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  transform-origin: top left;
+  transform: skewY(4.398705355deg);
+  margin: 20vw 25% 0 2%;
+}
+li{
+  transform-origin: top left;
+  transform: skewY(-4.398705355deg) rotatez(-14.03624deg);
+  padding-top: 150%;
+  z-index: 1;
+  transition-property: z-index;
+  transition-duration: .3s;
+}
+
+
+.item:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(12deg) scale(1.2) ;
+} 
+.item{
+  position: absolute;
+  z-index: -1;
+  width: 98%;
+  height: 95%;
+  top: 0;
+  background-color: whitesmoke;
+  border-radius: 2vw;
+  -webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+  transform: rotate(0deg) translate(0, 0);
+  transition-property: transform;
+  transition-duration: .3s;
+}
+
+
+
+li:nth-child(3n+1) .item{
+  background-color: #dbe4e9;
+}
+li:nth-child(3n+2) .item{
+  background-color: #ade6f1;
+}
+.product{
+  position: absolute;
+  width: 88%;
+  height: 91%;
+  top: 0;
+  transform: translateX(6.5%) translateY(5%);
+  border-radius: 1.2vw;
+  background:#001a23;
+  overflow: hidden;
+  display: inline-block;
+
+}
+h2, p, img {
+  position: absolute;
+  z-index: 4;
+}
+h2, p {
+  background-color: #53b3cb;
+  padding: 0.4em;
+}
+li:nth-child(3n+1) h2,li:nth-child(3n+1) p{
+  background-color: #894351;
+}
+li:nth-child(3n+2) h2,li:nth-child(3n+2) p{
+  background-color: #43bc5d7f;
+}
+
+h2{
+  top: 3.5%;
+  left: 4%;
+}
+p {
+  bottom: 3.5%;
+  right: 5%;
+  font-size: 1.2em;
+}
+img{
+  height: 110%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-2%);
+  transition-property: height,transform;
+  transition-duration: .3s;
+}
+
+li:hover{ 
+  z-index: 4;
+}
+li:hover .details{ 
+  transform: rotate(14.03624deg) translate(0%, 10%) scale(1.3);
+}
+li:hover img{ 
+  height: 210%;
+  transform: translateX(-50%) translateY(-14%);
+}
+
+@media (min-width:300px) { 
+  body{
+    font-size: 2.75vw;
+  }
+  ul {
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 3vw;
+    margin: 10vw 14vw 0 2vw;
+  }
+}
+
+@media (min-width:600px) { 
+  body{
+    font-size: 1.95vw;
+  }
+  ul {
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2vw;
+    margin: 8vw 10vw 0 1vw;
+  }
+}
+
+@media (min-width:900px) { 
+  body{
+    font-size: 1.5vw;
+  }
+  ul {
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 1.5vw;
+    margin: 6vw 7.5vw 0 0.5vw;
+  }
+}
+
+@media (min-width:1200px) { 
+  body{
+    font-size: 1.25vw;
+  }
+  ul {
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 1vw;
+    margin: 4.5vw 6vw 0 0.5vw;
+  }
+}
+
+@media (min-width:1500px) { 
+  body{
+    font-size: 1vw;
+  }
+  ul {
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 1vw;
+    margin: 4vw 6vw 0 0.5vw;
+  }
+}
